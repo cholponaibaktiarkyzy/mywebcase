@@ -1,0 +1,41 @@
+body {
+background-image: url("images3/GoraBeluha.jpg");
+}
+.container{
+
+    width:200px;
+    padding:20px;
+    margin-right: 228px;
+   position: absolute;
+    left: 30px;
+}
+
+*, *:before, *:after {
+     box-sizing: border-box;
+ }
+input{
+
+    padding:10px;
+    margin:10px 0; // add top and bottom margin
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+
+}
+input, textarea {
+    font-family:inherit;
+    font-size: inherit;
+}
+ .submit {
+    /* remove default behavior */
+    appearance:none;
+    -webkit-appearance:none;
+    /* usual styles */
+    padding:10px;
+    border:none;
+    background-color:#3F51B5;
+    color:#fff;
+    font-weight:600;
+    border-radius:5px;
+    width:100%;
+}
